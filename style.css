@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* this is for navigation bar  */
+
+.navbar {
+    height: 67px;
+    max-width: 100%;
+    background-color: black;
+}
+
+.nav-list {
+    display: flex;
+    float: right;
+}
+
+.nav-list li {
+    margin: 18px 50px;
+}
+
+.nav-list li a {
+    color: aliceblue;
+    font-family: 'Staatliches', cursive;
+    /* border: solid 1px; */
+    border-radius: 10px;
+    font-size: x-large;
+    padding: 2px 6px;
+    /* background-color: black; */
+    /* border: solid red; */
+}
+
+.nav-list li a:hover {
+    background-color: rgb(195, 195, 195);
+    color: black;
+}
+
+
+/* this is for logo  */
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 35px;
+    margin: 2px 20px;
+}
+
+
+/* this is for backgroud img  */
+
+.backimg img {
+    max-width: 100%;
+}
+
+.headline h1 {
+    position: absolute;
+    left: 24%;
+    bottom: 55%;
+    font-size: xxx-large;
+    color: rgb(23 23 23);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 25px;
+    text-transform: capitalize;
+    text-shadow: 7px 2px #af7a7a;
+}
+
+
+/* this is for body part after bacground image  */
+
+.title {
+    margin: 10px;
+    text-align: center;
+    /* border: solid; */
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.row-2 {
+    display: flex;
+}
+
+.row-2 .ar {
+    flex-basis: 30%;
+    border: solid rgb(179, 179, 179);
+    border-radius: 20px;
+    margin: 31px 31px 20px 31px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: -10px 16px #888888;
+    transition-delay: 0.4s;
+}
+
+.row-2 .ar:hover {
+    transform: translateY(-3%);
+}
+
+.arimg {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.row-2 .ar p {
+    padding: 10px;
+}
+
+
+/* this is for footer  */
+
+.footer {
+    background-color: black;
+    /* border: solid black; */
+}
+
+.foot h5 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.foot ul {
+    display: flex;
+    justify-content: center;
+    margin: 14px 0px;
+}
+
+.foot ul a {
+    margin: 0px 15px;
+    border: solid white;
+    border-radius: 12px;
+    background-color: #e3edf7;
+    padding: 5px 8px;
+}
+
+.foot ul a i {
+    color: black;
+}
+
+.copy {
+    text-align: center;
+    color: white;
+}
